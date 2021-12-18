@@ -1,0 +1,78 @@
+.box {
+  padding: 20px 0px;
+}
+.inputTagDiv {
+  position: relative;
+}
+.inputTag {
+  box-shadow: 0 8px 10px -3px rgb(0 0 0 / 10%), 0 4px 6px -2px rgb(0 0 0 / 10%),
+    0 -8px 12px 0 rgb(0 0 0 / 5%), 0 -2px 3px -2px rgb(0 0 0 / 1%);
+}
+.searchSeaction {
+  visibility: hidden;
+  position: absolute;
+  max-height: 800px;
+  overflow-y: scroll;
+  border-radius: 8px;
+  top: 120%;
+  width: 95%;
+  left: 2.5%;
+  box-shadow: 0 8px 10px -3px rgb(0 0 0 / 10%), 0 4px 6px -2px rgb(0 0 0 / 10%),
+    0 -8px 12px 0 rgb(0 0 0 / 5%), 0 -2px 3px -2px rgb(0 0 0 / 1%);
+}
+.eachItem {
+  padding: 10px 15px;
+  position: relative;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+.eachItemEachLine {
+  display: flex;
+  justify-content: space-between;
+  padding: 3px 0px;
+}
+.eachItem .eachAddIcon {
+  visibility: hidden;
+  position: absolute;
+  /* padding: 5px 10px;
+  background-color: white;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: 5px; */
+  right: 2%;
+  bottom: 10%;
+  /* transition: all 0.3s; */
+}
+.eachItem:hover {
+  background-color: #f1f1f1;
+}
+.eachItem:hover .eachAddIcon {
+  visibility: visible;
+}
+.showIt {
+  visibility: visible;
+  background-color: white;
+  z-index: 1;
+}
+.wishSection {
+  margin-top: 20px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+.eachWishItem {
+  padding: 10px 30px;
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+  border-bottom: none;
+}
+.makeItGreen {
+  color: green;
+  font-weight: 700;
+  font-size: 20px;
+}
+.makeItRed {
+  color: red;
+  font-size: 20px;
+  font-weight: 700;
+}
+.nse {
+  padding: 5px 10px;
+  background-color: #f1f1f1;
+  border-radius: 5px;
+}
